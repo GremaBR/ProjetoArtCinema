@@ -1,0 +1,152 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #21262D;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color:  #fff;
+}
+.valores{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.valorAperitivos {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+}
+
+.container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+.pipocas {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.pipocas img {
+    width: 170px;
+}
+
+.outros {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.escolha {
+    width: 200px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.aperitivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aperitivo img {
+    max-width: 200px;
+    margin-right: 0px;
+    border-radius: 8px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: end;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    color: #e3e6e9;
+    margin: 8px auto;
+}
+
+span{
+    display: flex;
+    margin: 8px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#D0A933;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+
+.botao:hover {
+    background-color: #804ad66d;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.go, .home{
+    background-color: #D0A933;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    margin: 8px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+button:hover, a:hover{
+    background-color: rgba(240, 196, 102, 0.719)
+}

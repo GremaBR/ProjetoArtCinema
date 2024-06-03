@@ -1,0 +1,170 @@
+body {
+    background-color: #21262D;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.poltrona-cadeirante {
+    max-width: 40%;
+}
+
+.poltrona {
+    width: 20%;
+    cursor: pointer;
+}
+
+.cadeira {
+    display: flex;
+    margin: 40px;
+}
+
+.assentos {
+    display: flex;
+    background-color: #21262D;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 80px;
+    border: 3px solid rgb(166, 166, 165);
+    text-align: center;
+}
+
+.cadeirinhas {
+    background-color: #343C46;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 8px;
+}
+
+.poltroninha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.poltroninha img {
+    max-height: 30px;
+}
+
+p {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-basis: 100px;
+    margin-right: 10px;
+}
+
+.ingressos{
+    color: #fff;
+    background-color: #343C46;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50px;
+    height: 40px;;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+}
+.valorIngressos{
+    color: #fff;
+    background-color: #343C46;
+    display: flex;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+}
+
+.container h2{
+    font-size: 20px;
+    color: #fff;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+.legendas {
+    width: 290px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    background-color: #D0A933;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-decoration: none;
+    width: 150px;
+}
+
+button:hover,
+a:hover {
+    background-color: rgba(240, 196, 102, 0.719)
+}
+
+.poltrona-selecionada {
+    filter: drop-shadow(1px 1px 20px red)
+}
+
+.tela {
+    font-size: 29px;
+    max-width: 100%;
+    max-height: 70px;
+    display: flex;
+    background-color: #343C46;
+    margin: 0;
+}
+
+.coluna {
+    margin: 0 auto auto 80px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coluna p {
+    color: rgb(209, 209, 209);
+    font-size: 25px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 0;
+}
+
+
+.lugar p {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    justify-content: center;
+}

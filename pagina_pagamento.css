@@ -1,0 +1,113 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #21262D;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 500px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: end;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+button[type="submit"], a{
+    background-color: #D0A933;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 15px;
+    text-decoration: none;
+    display: flex;
+    margin-right: 10px;
+}
+
+button[type="submit"]:hover , a:hover{
+    background-color: rgba(240, 196, 102, 0.719)
+}
+
+.botao-login{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.payment-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 9px;
+    text-align: center;
+    z-index: 1001; 
+}
+
+#paymentConfirmationOverlay:target {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+h2, p{
+    color: #333;
+    margin: 0;
+}
+
+.payment-image {
+    width: 230px;
+}
+
+.bandeira{
+    width: 200px;
+}

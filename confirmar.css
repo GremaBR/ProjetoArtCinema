@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #21262D;
+}
+
+.container {
+    width: 700px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.movie-info {
+    display: flex;
+}
+
+.movie-info, .showtime-info, .seat-info, .food-info, .total-amount, .seats-price {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+
+.movie-info {
+    display: flex;
+}
+
+h2 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.btn, .voltar{
+    padding: 10px 20px;
+    background-color:  #D0A933;;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn:hover,
+.voltar:hover {
+    background-color: rgba(240, 196, 102, 0.719)
+}
+
+.botoes, .voltar {
+    display: flex;
+    margin: 0 auto;
+}
+
+.movie-title {
+        margin-left: 10px;
+}
