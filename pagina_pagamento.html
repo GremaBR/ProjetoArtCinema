@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pagamento</title>
+    <link rel="stylesheet" href="..\css\pagina_pagamento.css">
+    <link rel="stylesheet" href="..\css\formulario_cartao.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Informe os dados do seu cartão de crédito</h2>
+        <img src="https://plasfixfitas.ind.br/wp-content/uploads/2022/03/bandeira-dos-cartoes-de-credito.png" class="bandeira">
+        <form id="creditCardForm" action="#paymentConfirmationOverlay">
+            <div class="form-group">
+                <label for="cardNumber">Número do Cartão:</label>
+                <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" required>
+            </div>
+            <div class="form-group">
+                <label for="cardName">Nome no Cartão:</label>
+                <input type="text" id="cardName" name="cardName" placeholder="Nome Completo" required>
+            </div>
+            <div class="form-group">
+                <label for="expiryDate">Data de Expiração:</label>
+                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/AA" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123" required>
+            </div>
+        
+            <div class="botoes">
+                <a href="..\html\aperitivos.html" class="voltar">Voltar</a>
+                <button type="submit">Confirmar Pagamento</button>
+            </div>
+        </form>
+        </div>
+
+    <div class="overlay" id="paymentConfirmationOverlay">
+        <div class="payment-container">
+
+            <h2>Pagamento Confirmado!</h2>
+
+            <img src="https://www.silbeck.com.br/wp-content/uploads/2021/06/Prancheta-2@300x-100-scaled.jpg"
+                alt="Confirmação de Pagamento" class="payment-image">
+
+            <p>O pagamento foi processado com sucesso. Obrigado por sua compra!</p>
+            <br>
+            <div class="sair">
+                <a href="..\html\home.html" class="botao-login"> Voltar para o menu principal </a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

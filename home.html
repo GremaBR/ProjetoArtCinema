@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ArtCinema</title>
+        <link rel="stylesheet" href="..\css\home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <header>
+        <div class="alinha">
+            <div class img-header>
+                <img src="..\img\TELA_6.png" alt="tela_6" class="capa">
+            </div>
+
+            <nav class="nav-links">
+                <a href="#" class="abrir-login">   <img src="https://cdn-icons-png.flaticon.com/512/5953/5953496.png" class="icone-login"> </a>
+            </nav>
+        </div>
+    </header>
+
+    <body>
+        <div class="overlay" id="loginOverlay">
+            <div class="login-container">
+        
+                <div class="X">
+                    <a href="home.html">
+                        <img src="https://icones.pro/wp-content/uploads/2022/05/icone-fermer-et-x-jaune.png" class="sair">
+                    </a>
+                    <a href="home.html" class="sair"> </a>
+                </div>
+                
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="email" class="entrada">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="entrada">Senha:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="botao-login">Entrar</button>
+                    </div>
+                    <div class="botao-cadastro">
+                        <a href="#" class="abrir-cadastro"> Ainda não tem uma conta?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="overlay" id="registerOverlay">
+            <div class="registrar-container">
+
+                <div class="X">
+                    <a href="home.html">
+                        <img src="https://icones.pro/wp-content/uploads/2022/05/icone-fermer-et-x-jaune.png" class="sair">
+                    </a>
+                    <a href="home.html" class="sair"> </a>
+                </div>
+
+                <h2>Criar Conta</h2>
+                <form id="registrarForm">
+                    <div class="form-group">
+                        <label for="nome" class="entrada">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="entrada">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="senha" class="entrada">Senha:</label>
+                        <input type="password" id="senha" name="senha" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmarSenha" class="entrada">Confirmar Senha:</label>
+                        <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="botao-login">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <br><br><br>
+        
+        <h2> Em Cartaz </h2>
+        <br>
+        <div class="cartaz">
+            <br>
+            <div class="card">
+                <a href="..\filmes\duna.html" class="titulo" id="duna">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/pictures/23/05/26/17/47/1900372.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\interstelar.html" class="titulo" id="interstelar">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/pictures/14/10/31/20/39/476171.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\seven.html" class="titulo" id="seven">
+                    <img src="https://br.web.img2.acsta.net/c_310_420/pictures/210/124/21012465_2013061319170245.jpg"
+                        alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\fightClub.html" class="titulo" id="fightClube">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/90/95/96/20122166.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\whiplash.html" class="titulo" id="whiplash">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/pictures/14/10/28/21/20/026440.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\lalaland.html" class="titulo" id="lalaLand">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/pictures/17/01/24/17/13/228823.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <br><br><br>
+        <h2> Em Breve </h2>
+        <br>
+        <div class="cartaz">
+            <br>
+            <div class="card">
+                <a href="..\filmes\avatar.html" class="titulo" id="avatar">
+                    <img src="https://br.web.img2.acsta.net/c_310_420/pictures/22/05/09/16/16/3197518.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\harryPotter.html" class="titulo" id="harryPotter">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/95/59/60/20417256.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\ultimato.html" class="titulo" id="ultimato">
+                    <img src="https://br.web.img2.acsta.net/c_310_420/pictures/19/04/26/17/30/2428965.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\batman.html" class="titulo" id="batman">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/86/98/32/19870786.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\callByYourName.html" class="titulo" id="callByYourName">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/pictures/17/09/11/23/53/5940465.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\bladeRunner.html" class="titulo" id="bladeRunner">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/pictures/17/08/25/11/58/463146.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <br><br><br>
+        <h2> Cinema Infantil </h2>
+        <br>
+        <div class="cartaz">
+            <br>
+            <div class="card">
+                <a href="..\filmes\shrek.html" class="titulo" id="shrek">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/91/54/04/20150812.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\comoTreinarSeuDragao.html" class="titulo" id="comoTreinarSeuDragao">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/pictures/14/05/27/21/27/291561.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\enrolados.html" class="titulo" id="enrolados">
+                    <img src="https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/87/90/91/19962790.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\procurandoNemo.html" class="titulo" id="procurandoNemo">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/91/25/21/20154443.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\ratatouille.html" class="titulo" id="ratatouille">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/85/18/19962200.jpg" alt="">
+                </a>
+            </div>
+            <div class="card">
+                <a href="..\filmes\divertidamente.html" class="titulo" id="divertidamente">
+                    <img src="https://br.web.img3.acsta.net/c_310_420/pictures/15/05/14/14/20/365361.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <br><br><br>
+        <script src="..\js\abrir.js"></script>
+        <script> const loginLink = document.querySelector('.abrir-login'); </script>
+    </body>
+
+    <footer>
+
+        <img src="..\img\ArtCinema.png" alt="ArtCinema">
+
+        <div class="contato">
+            <h2>Contato</h2>
+            <div class="redes">
+                <a href="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/717/717392.png" alt="">
+                    Instagram</a>
+            </div>
+            <div class="redes">
+                <a href="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/59/59439.png" alt="">Facebook</a>
+            </div>
+            <div class="redes">
+                <a href="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/154/154858.png" alt="">
+                    Whatsapp</a>
+            </div>
+            <div class="redes">
+                <a href="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/126/126341.png" alt="">
+                    Fone:(70) 7070-7070</a>
+            </div>
+        </div>
+
+        <div class="contato">
+            <h2>Políticas</h2>
+            <div class="redes"><a href="">Privacidade e Segurança</a>
+            </div>
+            <div class="redes">
+                <a href="">Meia-entrada</a>
+            </div>
+            <div class="redes">
+                <a href="">Trocas e Cancelamentos</a>
+            </div>
+            <div class="redes">
+                <a href="">Leis Estaduais e Municipais</a>
+            </div>
+            <div class="redes">
+                <a href="">Termos de Uso</a>
+            </div>
+        </div>
+
+        <div class="contato">
+            <h2>Precisa de Ajuda?</h2>
+            <div class="redes"><a href="">Atendimento</a></div>
+
+            <div class="redes">
+                <a href="">Cancelar Pedido</a>
+            </div>
+            <div class="redes">
+                <a href="">Sites ou e-mails falsos</a>
+            </div>
+            <div class="redes">
+                <a href="">Procon-RJ</a>
+            </div>
+        </div>
+    </footer>
+
+</html>
