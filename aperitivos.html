@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aperitivos</title>
+    <link rel="stylesheet" href="..\css\aperitivos.css" /> <!-- tem o css de login também -->
+</head>
+
+
+<body>
+    
+    <h1> Escolha seus Aperitivos </h1>
+
+    <div class="container">
+        <div class="pipocas">
+            <div class="escolha">
+                <div class="aperitivo">
+                    <img
+                        src="https://static.vecteezy.com/ti/vetor-gratis/p3/12231863-chef-de-pipoca-bonito-dos-desenhos-animados-com-menu-na-mao-vetor.jpg">
+                    <label for="PipocaSalgadaPequena" style="align-items: center;"> Pipoca Salgada Pequena</label>
+                    <label for="PipocaSalgadaPequena" style="margin-bottom: 10px;" name="valor"> R$ 11,00</label>
+                    <div class="botoes">
+                        <button onclick="quantidade('pipoca-salgada-pequena', '-', 11)" class="botao"> - </button>
+                        <span id="pipoca-salgada-pequena"> 0 </span>
+                        <button onclick="quantidade('pipoca-salgada-pequena', '+', 11)" class="botao"> + </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="escolha">
+                <div class="aperitivo">
+                    <img
+                        src="https://static.vecteezy.com/ti/vetor-gratis/p3/12231863-chef-de-pipoca-bonito-dos-desenhos-animados-com-menu-na-mao-vetor.jpg">
+                    <label for="PipocaSalgadaMedia"> Pipoca Salgada Média</label>
+                    <label for="PipocaSalgadaMedia" style="margin-bottom: 10px;" name="valor"> R$ 15,00</label>
+                    <div class="botoes">
+                        <button onclick="quantidade('pipoca-salgada-media', '-', 15)" class="botao"> - </button>
+                        <span id="pipoca-salgada-media"> 0 </span>
+                        <button onclick="quantidade('pipoca-salgada-media', '+', 15)" class="botao"> + </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="escolha">
+                <div class="aperitivo">
+                    <img
+                        src="https://static.vecteezy.com/ti/vetor-gratis/p3/12231863-chef-de-pipoca-bonito-dos-desenhos-animados-com-menu-na-mao-vetor.jpg">
+                    <label for="PipocaSalgadaGrande"> Pipoca Salgada Grande</label>
+                    <label for="PipocaSalgadaGrande" style="margin-bottom: 10px;" name="valor"> R$ 22,00</label>
+                    <div class="botoes">
+                        <button onclick="quantidade('pipoca-salgada-grande', '-', 22)" class="botao"> - </button>
+                        <span id="pipoca-salgada-grande"> 0 </span>
+                        <button onclick="quantidade('pipoca-salgada-grande', '+', 22)" class="botao"> + </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="escolha">
+                <div class="aperitivo">
+                    <img
+                        src="https://static.vecteezy.com/ti/vetor-gratis/p3/12231863-chef-de-pipoca-bonito-dos-desenhos-animados-com-menu-na-mao-vetor.jpg">
+                    <label for="PipocaDocePequena"> Pipoca Doce Pequena</label>
+                    <label for="PipocaDocePequena" style="margin-bottom: 10px;" name="valor"> R$ 11,00</label>
+                    <div class="botoes">
+                        <button onclick="quantidade('pipoca-doce-pequena', '-', 11)" class="botao"> - </button>
+                        <span id="pipoca-doce-pequena"> 0 </span>
+                        <button onclick="quantidade('pipoca-doce-pequena', '+', 11)" class="botao"> + </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="escolha">
+                <div class="aperitivo">
+                    <img
+                        src="https://static.vecteezy.com/ti/vetor-gratis/p3/12231863-chef-de-pipoca-bonito-dos-desenhos-animados-com-menu-na-mao-vetor.jpg">
+                    <label for="PipocaDoceMedia"> Pipoca Doce Média</label>
+                    <label for="PipocaDoceMedia" style="margin-bottom: 10px;" name="valor"> R$ 15,00</label>
+                    <div class="botoes">
+                        <button onclick="quantidade('pipoca-doce-media', '-', 15)" class="botao"> - </button>
+                        <span id="pipoca-doce-media"> 0 </span>
+                        <button onclick="quantidade('pipoca-doce-media', '+', 15)" class="botao"> + </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="escolha">
+                <div class="aperitivo">
+                    <img
+                        src="https://static.vecteezy.com/ti/vetor-gratis/p3/12231863-chef-de-pipoca-bonito-dos-desenhos-animados-com-menu-na-mao-vetor.jpg">
+                    <label for="PipocaDoceGrande"> Pipoca Doce Grande</label>
+                    <label for="PipocaDoceGrande" style="margin-bottom: 10px;" name="valor"> R$ 22,00</label>
+                    <div class="botoes">
+                        <button onclick="quantidade('pipoca-doce-grande', '-', 22)" class="botao"> - </button>
+                        <span id="pipoca-doce-grande"> 0 </span>
+                        <button onclick="quantidade('pipoca-doce-grande', '+', 22)" class="botao"> + </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="outros">
+            <div class="escolha">
+                <div class="aperitivo">
+                    <img
+                        src="https://images.vexels.com/media/users/3/158112/isolated/preview/8e7df2770674be885c30fc2c46219836-icone-de-garrafa-de-agua-de-plastico.png">
+                    <label for="AguaGas"> Água C/Gás </label>
+                    <label for="AguaGas" style="margin-bottom: 10px;" name="valor"> R$ 5,00</label>
+                    <div class="botoes">
+                        <button onclick="quantidade('agua-gas', '-', 5)" class="botao"> - </button>
+                        <span id="agua-gas"> 0 </span>
+                        <button onclick="quantidade('agua-gas', '+', 5)" class="botao"> + </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="escolha">
+                <div class="aperitivo">
+                    <img
+                        src="https://images.vexels.com/media/users/3/158112/isolated/preview/8e7df2770674be885c30fc2c46219836-icone-de-garrafa-de-agua-de-plastico.png">
+                    <label for="Agua"> Água S/Gás </label>
+                    <label for="Agua" style="margin-bottom: 10px;" name="valor"> R$ 5,00</label>
+                    <div class="botoes">
+                        <button onclick="quantidade('agua', '-', 5)" class="botao"> - </button>
+                        <span id="agua"> 0 </span>
+                        <button onclick="quantidade('agua', '+', 5)" class="botao"> + </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="escolha">
+                <div class="aperitivo">
+                    <img
+                        src="https://images.vexels.com/media/users/3/191603/isolated/lists/711162f4c4494ce05737b14b4d9b6dbb-beber-copo-cinema.png">
+                    <label for="Coca"> Coca-Cola </label>
+                    <label for="Coca" style="margin-bottom: 10px;" name="valor"> R$ 10,00</label>
+                    <div class="botoes">
+                        <button onclick="quantidade('coca', '-', 10)" class="botao"> - </button>
+                        <span id="coca"> 0 </span>
+                        <button onclick="quantidade('coca', '+', 10)" class="botao"> + </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="escolha">
+                <div class="aperitivo">
+                    <img
+                        src="https://images.vexels.com/media/users/3/191603/isolated/lists/711162f4c4494ce05737b14b4d9b6dbb-beber-copo-cinema.png">
+                    <label for="Fanta"> Fanta Laranja </label>
+                    <label for="Fanta" style="margin-bottom: 10px;" name="valor"> R$ 10,00</label>
+                    <div class="botoes">
+                        <button onclick="quantidade('fanta', '-', 10)" class="botao"> - </button>
+                        <span id="fanta"> 0 </span>
+                        <button onclick="quantidade('fanta', '+', 10)" class="botao"> + </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="escolha">
+                <div class="aperitivo">
+                    <img
+                        src="https://images.vexels.com/media/users/3/191603/isolated/lists/711162f4c4494ce05737b14b4d9b6dbb-beber-copo-cinema.png">
+                    <label for="Guarana"> Guaraná </label>
+                    <label for="Guarana" style="margin-bottom: 10px;" name="valor"> R$ 10,00</label>
+                    <div class="botoes">
+                        <button onclick="quantidade('guarana', '-', 10)" class="botao"> - </button>
+                        <span id="guarana"> 0 </span>
+                        <button onclick="quantidade('guarana', '+', 10)" class="botao"> + </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="escolha">
+                <div class="aperitivo">
+                    <img
+                        src="https://images.vexels.com/media/users/3/191603/isolated/lists/711162f4c4494ce05737b14b4d9b6dbb-beber-copo-cinema.png">
+                    <label for="Sprite"> Sprite </label>
+                    <label for="Sprite" style="margin-bottom: 10px;" name="valor"> R$ 10,00</label>
+                    <div class="botoes">
+                        <button onclick="quantidade('sprite', '-', 10)" class="botao"> - </button>
+                        <span id="sprite"> 0 </span>
+                        <button onclick="quantidade('sprite', '+', 10)" class="botao"> + </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="valores">
+        <h2>Valor Total: &nbsp</h2>
+        <h2 class="valorAperitivos"></h2>
+    </div>
+
+    <div class="button-container">
+        <div>
+            <a href="reserva-poltronas.html" class="go"> Voltar </a>
+        </div>
+        <div>
+            <a onclick="finalizarPedido()" href="confirmacao.html" class="go"> Continuar Reserva </a>
+        </div>
+        <br>
+    </div>
+
+    <script src="..\js\aperitivos.js"></script>
+
+</body>
+
+</html>
